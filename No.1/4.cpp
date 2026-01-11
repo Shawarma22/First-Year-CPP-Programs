@@ -22,7 +22,7 @@ void clm(int arr[][99], int r, int c){
 void getarr(int arr[][99], int r, int c){
 	for(int i = 0 ; i < r ; i++){
 		for(int j = 0 ; j < c ; j++){
-			cout << "Enter element (" << i << "," << j << "): ";
+			cout << "Enter element (" << i << ", " << j << "): ";
 			cin >> arr[i][j];
 		}
 	}
