@@ -3,7 +3,7 @@
 using namespace std;
 
 double factc(int n){
-	double fact = 1;
+   	double fact = 1;
 	for(int i = 1; i <= n; i++){
 		fact *= i;
 	}return fact;
